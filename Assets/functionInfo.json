@@ -1,0 +1,48 @@
+{
+  "functionInfo": [
+    {
+      "function": "OnSeeWall",
+      "tupe": "TaskNumber"
+    },
+    {
+      "function": "OnSeeEnemy",
+      "tupe": "TaskNumber"
+    },
+    {
+      "function": "OnSeeChild",
+      "tupe": "TaskNumber"
+    },
+    {
+      "function": "OnSeeEat",
+      "tupe": "TaskNumber"
+    },
+    {
+      "function": "OnNothing",
+      "tupe": "TaskNumber"
+    },
+    {
+      "function": "MinDistanceToHit",
+      "tupe": "FloatValue"
+    },
+    {
+      "function": "RotationAngle",
+      "tupe": "IntValue"
+    },
+    {
+      "function": "Color",
+      "tupe": "ColorValue"
+    },
+    {
+      "function": "Size",
+      "tupe": "DeciFloatValue"
+    },
+    {
+      "function": "Speed",
+      "tupe": "FloatValue"
+    },
+    {
+      "function": "Damage",
+      "tupe": "IntValue"
+    }
+  ]
+}
