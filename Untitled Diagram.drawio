@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T13:23:57.636Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="XRcy9DrqZBcpYHngnm0S" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T13:37:26.509Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="of_Ao7wVSCrqHzcnBSp1" version="21.7.4" type="github">
   <diagram name="Page-1" id="93hSHz1rbPq92NNtPHbY">
-    <mxGraphModel dx="794" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1134" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -123,7 +123,7 @@
           <mxGeometry x="159" y="180" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="5jogoXL8pZsZA-fbwrhF-53" value="finsh" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="347.19" y="620" width="61.87" height="30" as="geometry" />
+          <mxGeometry x="150" y="760" width="61.87" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5jogoXL8pZsZA-fbwrhF-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5jogoXL8pZsZA-fbwrhF-54" target="5jogoXL8pZsZA-fbwrhF-53">
           <mxGeometry relative="1" as="geometry">
@@ -131,10 +131,12 @@
             <Array as="points">
               <mxPoint x="280" y="560" />
               <mxPoint x="378" y="560" />
+              <mxPoint x="378" y="740" />
+              <mxPoint x="181" y="740" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="5jogoXL8pZsZA-fbwrhF-54" value="tell user that&amp;nbsp;&lt;br&gt;there is no potential clients" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5jogoXL8pZsZA-fbwrhF-54" value="tell user that&amp;nbsp;&lt;br&gt;there is no clients" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="305" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5jogoXL8pZsZA-fbwrhF-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5jogoXL8pZsZA-fbwrhF-57" target="5jogoXL8pZsZA-fbwrhF-60">
@@ -143,8 +145,26 @@
         <mxCell id="5jogoXL8pZsZA-fbwrhF-57" value="read&lt;br&gt;product price (P)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="305" width="130" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="5jogoXL8pZsZA-fbwrhF-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5jogoXL8pZsZA-fbwrhF-60" target="5jogoXL8pZsZA-fbwrhF-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="490" />
+              <mxPoint x="30" y="590" />
+              <mxPoint x="125" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jogoXL8pZsZA-fbwrhF-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5jogoXL8pZsZA-fbwrhF-60" target="5jogoXL8pZsZA-fbwrhF-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="204" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5jogoXL8pZsZA-fbwrhF-60" value="if current&lt;br&gt;client &lt;br&gt;balance &amp;gt;= P" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="63.75" y="390" width="122.5" height="120" as="geometry" />
+          <mxGeometry x="63.75" y="430" width="122.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="5jogoXL8pZsZA-fbwrhF-62" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="205" width="60" height="30" as="geometry" />
@@ -152,14 +172,51 @@
         <mxCell id="5jogoXL8pZsZA-fbwrhF-63" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="205" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5jogoXL8pZsZA-fbwrhF-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5jogoXL8pZsZA-fbwrhF-60" target="5jogoXL8pZsZA-fbwrhF-65">
+        <mxCell id="5jogoXL8pZsZA-fbwrhF-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5jogoXL8pZsZA-fbwrhF-65" target="5jogoXL8pZsZA-fbwrhF-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5jogoXL8pZsZA-fbwrhF-65" value="wtite the &lt;br&gt;client name&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="530" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5jogoXL8pZsZA-fbwrhF-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5jogoXL8pZsZA-fbwrhF-67" target="5jogoXL8pZsZA-fbwrhF-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5jogoXL8pZsZA-fbwrhF-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5jogoXL8pZsZA-fbwrhF-67" target="5jogoXL8pZsZA-fbwrhF-53">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="530" as="targetPoint" />
-            <mxPoint x="186" y="450" as="sourcePoint" />
+            <mxPoint x="70" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="57" y="655" />
+              <mxPoint x="57" y="740" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="5jogoXL8pZsZA-fbwrhF-65" value="wtite the &lt;br&gt;client name&lt;br&gt;set next client&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="179" y="490" width="90" height="40" as="geometry" />
+        <mxCell id="5jogoXL8pZsZA-fbwrhF-67" value="if there is &lt;br&gt;next client &lt;br&gt;on the list" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="77.5" y="610" width="95" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5jogoXL8pZsZA-fbwrhF-70" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="17.5" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5jogoXL8pZsZA-fbwrhF-71" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="465" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5jogoXL8pZsZA-fbwrhF-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="400" as="targetPoint" />
+            <mxPoint x="268.0857142857143" y="632.47" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="260" y="632" />
+              <mxPoint x="260" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jogoXL8pZsZA-fbwrhF-74" value="set next client&lt;br&gt;as a current" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="632.5" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="5jogoXL8pZsZA-fbwrhF-78" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5jogoXL8pZsZA-fbwrhF-80" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="600" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
